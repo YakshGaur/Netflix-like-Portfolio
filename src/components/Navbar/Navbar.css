@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 2rem;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  font-family: 'Times New Roman', serif;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-img img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+  padding: 0.3rem 0.6rem;
+}
+
+.nav-menu li a:hover {
+  color: #e50914;
+  transform: translateY(-2px);
+}
+
+/* Optional: Add a subtle underline animation */
+.nav-menu li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #e50914;
+  transition: width 0.3s;
+}
+
+.nav-menu li a:hover::after {
+  width: 100%;
+}
+
+/* Responsive: Collapse spacing on smaller screens */
+@media (max-width: 768px) {
+  .nav-menu {
+    gap: 1.2rem;
+  }
+
+  .nav-menu li a {
+    font-size: 0.9rem;
+  }
+}

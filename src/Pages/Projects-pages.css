@@ -1,6 +1,6 @@
 .project-container {
   padding: 4rem 2rem;
-  background-color: #111;
+  background: linear-gradient(to right, #0f0f0f 0%, #2a0000 50%, #0f0f0f 100%);
   color: white;
 }
 

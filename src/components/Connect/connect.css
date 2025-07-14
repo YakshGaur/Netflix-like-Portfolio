@@ -1,5 +1,5 @@
 .connect-section {
-  background-color: #0e0f11;
+  background: linear-gradient(to right, #0f0f0f 0%, #400000 50%, #0f0f0f 100%);
   color: white;
   text-align: center;
   padding: 4rem 2rem;

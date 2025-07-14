@@ -23,7 +23,7 @@ const GreenGuard = () => {
             </div>
 
             <a
-              href="https://github.com/your-github-repo-link"
+              href="https://github.com/YakshGaur/Green-Guard-UI"
               target="_blank"
               rel="noopener noreferrer"
               className="join-button"

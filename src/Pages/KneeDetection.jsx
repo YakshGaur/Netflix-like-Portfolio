@@ -22,7 +22,7 @@ const KneeDetection = () => {
             <button>Data Augmentation</button>
           </div>
           <a
-            href="https://github.com/your-username/knee-detection"
+            href="https://github.com/YakshGaur/Knee-Osteoarthritis-Severity-Grading-"
             target="_blank"
             rel="noopener noreferrer"
             className="join-button"
